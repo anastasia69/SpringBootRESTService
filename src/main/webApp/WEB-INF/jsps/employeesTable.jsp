@@ -1,7 +1,6 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<meta http-equiv="refresh" content="3600">
 <head>
     <title>SpringBootREST</title>
     <script>
@@ -35,12 +34,6 @@
                 }
             }
         }
-    </script>
-
-    <script>
-        setTimeout(function () {
-            window.location.reload(true);
-        }, 3600000);
     </script>
 
 </head>
